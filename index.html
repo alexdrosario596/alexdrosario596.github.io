@@ -3,12 +3,53 @@
 <head>
     <style>
         body {
-            color: blue; 
+            background-color: #1E90FF; /* Set the background to a blue color */
+            color: white; /* Set text color to white for better contrast */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            flex-direction: column; /* Stack elements vertically */
+            text-align: center; /* Center-align text */
+            min-height: 100vh; /* Ensure it takes the full viewport height */
+            margin: 0;
+            padding: 20px;
         }
 
-        
+        /* Table settings for readability */
+        table {
+            background-color: white; /* White background for the table */
+            color: black; /* Black text inside the table */
+            border-collapse: collapse;
+            width: 80%; /* Make the table take up a reasonable width */
+            margin: 20px auto; /* Center the table */
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4682B4; /* Darker blue for headers */
+            color: white;
+        }
+
         a {
-            color: blue;
+            color: yellow; /* Change links to a color that stands out */
+        }
+
+        iframe {
+            margin: 20px 0; /* Space around the video */
+        }
+
+        ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0; /* Space between links */
         }
     </style>
 </head>
