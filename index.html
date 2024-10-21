@@ -3,8 +3,8 @@
 <head>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
             color: #333;
             line-height: 1.6;
             margin: 0;
@@ -13,16 +13,18 @@
         }
         
         h1 {
-            background-color: #4CAF50;
+            background-color: #1e90ff;
             color: white;
             text-align: center;
             padding: 20px;
             margin-top: 0;
+            border-bottom: 4px solid #104e8b;
         }
         
         h2 {
-            color: #4CAF50;
-            margin-top: 20px;
+            color: #1e90ff;
+            margin-top: 30px;
+            text-align: center;
         }
 
         p {
@@ -31,16 +33,18 @@
         }
 
         details {
-            background-color: #e8e8e8;
+            background-color: #e3f2fd;
             padding: 10px;
             border-radius: 5px;
             margin: 20px;
             text-align: center;
+            border: 1px solid #1e90ff;
         }
 
         summary {
             font-weight: bold;
             cursor: pointer;
+            color: #1e90ff;
         }
 
         table {
@@ -53,22 +57,24 @@
 
         th, td {
             padding: 12px;
-            border: 1px solid #ddd;
+            border: 1px solid #104e8b;
             text-align: center;
         }
 
         th {
-            background-color: #4CAF50;
+            background-color: #1e90ff;
             color: white;
         }
 
         td {
-            background-color: #f9f9f9;
+            background-color: #f7fbff;
         }
 
         iframe {
             display: block;
             margin: 20px auto;
+            border: 2px solid #1e90ff;
+            border-radius: 10px;
         }
 
         ul {
@@ -79,22 +85,34 @@
         }
 
         li {
-            background-color: #f0f0f0;
+            background-color: #e3f2fd;
             padding: 10px;
             margin: 5px 0;
             border-radius: 5px;
             text-align: center;
+            border: 1px solid #1e90ff;
         }
 
         a {
-            color: #4CAF50;
+            color: #104e8b;
             text-decoration: none;
             font-weight: bold;
         }
 
         a:hover {
-            color: #388E3C;
+            color: #1e90ff;
             text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            table, ul {
+                width: 90%;
+            }
+
+            iframe {
+                width: 95%;
+            }
         }
     </style>
 </head>
